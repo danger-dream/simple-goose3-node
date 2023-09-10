@@ -1,0 +1,29 @@
+{
+	"name": "simple-goose3-node",
+	"version": "0.1.0",
+	"description": "node implementation of python simple goose3",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/exaggerated-dream/simple-goose3-node.git"
+	},
+	"main": "index.js",
+	"types": "index.d.ts",
+	"author": "exaggerated-dream",
+	"license": "MIT",
+	"keywords": [
+		"goose3",
+		"simple",
+		"html parser"
+	],
+	"bugs": {
+		"url": "https://github.com/exaggerated-dream/simple-goose3-node/issues"
+	},
+	"homepage": "https://github.com/exaggerated-dream/simple-goose3-node#readme",
+	"dependencies": {
+		"cheerio": "1.0.0-rc.12",
+		"entities": "4.5.0",
+		"@node-rs/jieba": "1.7.2",
+		"@notevenaneko/whatlang-node": "1.0.1",
+		"html-to-text": "9.0.5"
+	}
+}
